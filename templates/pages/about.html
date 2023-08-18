@@ -2,6 +2,8 @@
 
 {% load static %}
 
+{% block title %} | About Us {% endblock  %}
+
 {% block content %}
 
 <!-- Sub banner start -->
@@ -89,9 +91,9 @@
                 <div class="slick-slide-item">
                     <div class="team-1">
                         <div class="photo">
-                            <a href="#">
-                                <img src="{{ team.photo.url }}" alt="team-1" class="img-fluid">
-                            </a>
+                            
+                            <img src="{{ team.photo.url }}" alt="team-1" class="img-fluid">
+                            
                             <div class="social-list clearfix">
                                 <a href="https://www.facebook.com" target="blank" class="facebook-bg"><i class="fa fa-facebook"></i></a>
                                 <a href="https://www.twitter.com" target="blank" class="twitter-bg"><i class="fa fa-twitter"></i></a>
