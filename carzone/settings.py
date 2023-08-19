@@ -164,21 +164,3 @@ EMAIL_HOST_USER = 'msm.793@hotmail.com'
 EMAIL_HOST_PASSWORD = 'ESOLlevel9'
 EMAIL_USE_TLS = True
 
-"""
-# AWS credentials
-
-AWS_ACCESS_KEY_ID = "AKIA5JY4AB7KITGJRO5F"
-AWS_SECRET_ACCESS_KEY = "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"
-
-
-# S3 Configuration settings
-
-AWS_STORAGE_BUCKET_NAME = 'carzone-project'
-
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
-
-AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
-
-AWS_S3_FILE_OVERWRITE = False
-"""
